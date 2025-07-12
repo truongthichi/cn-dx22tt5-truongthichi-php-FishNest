@@ -50,7 +50,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="./hinhanh/cá header 1.jpg" alt="New York" width="1200" height="250">
+        <img style="max-width: 33%;" src="./hinhanh/cá header 1.jpg" alt="New York" width="1200" height="250">
         <div class="carousel-caption">
           <h3>New York</h3>
           <p>The atmosphere in New York is lorem ipsum.</p>

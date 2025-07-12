@@ -9,13 +9,14 @@
     color: #111;
   }
   .container {
-    padding: 80px 120px;
-  }
+  padding: 40px 60px;
+}
+
   .person {
     border: 10px solid transparent;
     margin-bottom: 25px;
-    width: 80%;
-    height: 80%;
+    width: 200px;
+  height: 200px;
     opacity: 0.7;
   }
   .person:hover {
@@ -141,4 +142,10 @@
   font-family: 'Permanent Marker', cursive;
   font-size: 26px; /* tuỳ chỉnh kích thước */
   font-weight: normal; /* font này chỉ có 1 độ đậm */
+}
+#band {
+  max-height: 493px;
+  overflow-y: auto;
+  padding: 40px 60px; /* Giảm padding để giúp khung gọn hơn */
+  background-color: #f9f9f9; /* Nếu muốn khác nền một chút */
 }
