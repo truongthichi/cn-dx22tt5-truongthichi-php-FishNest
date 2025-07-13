@@ -20,24 +20,35 @@
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
+    <div class="navbar-header"> 
       <a class="navbar-brand" href="./trangchu.php">FishNest</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage">Trang chủ</a></li>
         <li><a href="#band">CÁ CẢNH</a></li>
-        <li><a href="#tour">Giới Thiệu</a></li>
+        <li><a href="#dangnhap">Đăng nhập</a></li>
+        <li><a href="#dangky">Đăng kí</a></li>
+        <li><a href="#gioithieu">Giới Thiệu</a></li>
         <li><a href="#contact">Liên Hệ</a></li>
+        <li>
+          <form class="navbar-form" role="search" action="search.php" method="GET">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Tìm kiếm..." name="query">
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-default" style="font-size: 9px;">
+                  <i class="glyphicon glyphicon-search" style="font-size: 11px;" ></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+        
       </ul>
     </div>
   </div>
 </nav>
+
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -48,9 +59,10 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" role="listbox" style="margin: 49px 0px;">
       <div class="item active">
-        <img style="max-width: 33%;" src="./hinhanh/cá header 1.jpg" alt="New York" width="1200" height="250">
+        <img src="./hinhanh/cá đổi 1.jpg" alt="New York" class="carousel-img">
+
         <div class="carousel-caption">
           <h3>New York</h3>
           <p>The atmosphere in New York is lorem ipsum.</p>
@@ -58,7 +70,7 @@
       </div>
 
       <div class="item">
-        <img src="./hinhanh/cá header 2.jpg" alt="Chicago" width="1200" height="250">
+        <img src="./hinhanh/cá đổi 2.jpg" alt="Chicago" class="carousel-img">
         <div class="carousel-caption">
           <h3>Chicago</h3>
           <p>Thank you, Chicago - A night we won't forget.</p>
@@ -66,13 +78,13 @@
       </div>
     
       <div class="item">
-        <img src="./hinhanh/cá header 3.jpg" alt="Los Angeles" width="1200" height="250">
+        <img  src="./hinhanh/cá đổi 3.jpg" alt="Los Angeles" class="carousel-img">
         <div class="carousel-caption">
           <h3>LA</h3>
           <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
         </div>      
       </div>
-    </div>
+    </div> 
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -128,8 +140,8 @@
   </div>
 </div>
 
-<!-- Container (TOUR Section) -->
-<div id="tour" class="bg-1">
+<!-- Container (dangnhap Section) -->
+<div id="dangnhap" class="bg-1">
   <div class="container">
     <h3 class="text-center">TOUR DATES</h3>
     <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
@@ -202,7 +214,154 @@
     </div>
   </div>
 </div>
-
+<!-- Container (ĐĂNG KÝ Section) -->
+ <div id="dangky" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">TOUR DATES</h3>
+    <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
+    <ul class="list-group">
+      <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
+      <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li> 
+      <li class="list-group-item">November <span class="badge">3</span></li> 
+    </ul>
+    
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="paris.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Paris</strong></p>
+          <p>Friday 27 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="newyork.jpg" alt="New York" width="400" height="300">
+          <p><strong>New York</strong></p>
+          <p>Saturday 28 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
+          <p><strong>San Francisco</strong></p>
+          <p>Sunday 29 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+              <input type="number" class="form-control" id="psw" placeholder="How many?">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+              <button type="submit" class="btn btn-block">Pay 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Container (ĐĂNG KÝ Section) -->
+ <div id="gioithieu" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">TOUR DATES</h3>
+    <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
+    <ul class="list-group">
+      <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
+      <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li> 
+      <li class="list-group-item">November <span class="badge">3</span></li> 
+    </ul>
+    
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="paris.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Paris</strong></p>
+          <p>Friday 27 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="newyork.jpg" alt="New York" width="400" height="300">
+          <p><strong>New York</strong></p>
+          <p>Saturday 28 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
+          <p><strong>San Francisco</strong></p>
+          <p>Sunday 29 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+              <input type="number" class="form-control" id="psw" placeholder="How many?">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+              <button type="submit" class="btn btn-block">Pay 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Container (Contact Section) -->
 <div id="contact" class="container">
   <h3 class="text-center">Contact</h3>
