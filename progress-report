@@ -1,1 +1,36 @@
+Tuần 1 (08/06–14/06): Khởi động dự án FishNest
+•	Lên ý tưởng xây dựng nền tảng mua bán cá cảnh trực tuyến
+•	Nghiên cứu tổng quan các hệ thống thương mại điện tử: quản lý sản phẩm, người dùng, đơn hàng
+•	Tìm hiểu kiến thức PHP cơ bản để đánh giá hướng triển khai kỹ thuật
+•	Tạo repo GitHub, cài đặt môi trường phát triển bằng VS Code và XAMPP
+ Tuần 2 (15/06–21/06): Cơ bản frontend và định hướng chức năng FishNest
+•	Làm quen HTML và CSS để xây dựng bố cục trang web trực quan
+•	Học JavaScript để xử lý tương tác như thêm sản phẩm, thông báo...
+•	Khảo sát các trang web bán cá cảnh hiện có để phân tích yêu cầu người dùng
+•	Phác thảo đối tượng mục tiêu và luồng chức năng chính như xem cá, đặt hàng
+ Tuần 3 (22/06–28/06): Thiết kế giao diện và cơ sở dữ liệu cho FishNest
+•	Phát triển giao diện trang chủ, đăng nhập, đăng ký bằng HTML/CSS
+•	Thiết kế database với các bảng
+•	Viết file khởi tạo cơ sở dữ liệu bằng MySQL
+•	Demo giao diện các trang chính bằng Figma hoặc HTML
+ Tuần 4 (29/06–05/07): Hoàn thiện chức năng người dùng & kết nối dữ liệu
+•	Hiển thị danh sách cá cảnh từ database lên giao diện PHP
+•	Tạo form đăng ký, đăng nhập có xác thực đầu vào
+•	Xây dựng chức năng thêm cá vào giỏ hàng bằng session
+ Tuần 5 (06/07–12/07): Thanh toán & quản trị nội dung
+•	Triển khai chức năng đặt hàng và lưu thông tin đơn hàng vào CSDL
+•	Tạo giao diện quản lý cho admin sử dụng Bootstrap
+•	Code chức năng thêm/sửa/xóa cá cảnh từ hệ thống
+•	Quản lý đơn hàng và thống kê theo trạng thái giao dịch
+ Tuần 6 (13/07–19/07): Kiểm thử tổng thể, sửa lỗi và tối ưu
+•	Kiểm tra toàn bộ chức năng: mua hàng, đăng nhập, quản lý
+•	Sửa lỗi giao diện, tăng khả năng responsive trên mobile
+•	Kiểm tra logic giỏ hàng, đơn hàng, thanh toán
+•	Tối ưu hiệu suất PHP, HTML, CSS để cải thiện tốc độ load
+ Tuần 7 (20/07–27/07): Hoàn thiện báo cáo dự án FishNest
+•	Tổng hợp tiến trình dự án từ ý tưởng đến triển khai
+•	Viết báo cáo gồm: mở đầu, thiết kế hệ thống, triển khai, kết quả
+•	Đưa vào ảnh minh họa, đoạn mã tiêu biểu trong báo cáo
+•	Rà soát và chỉnh sửa nội dung trước khi nộp
+
 
