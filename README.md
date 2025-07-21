@@ -20,4 +20,7 @@ Thực hiện kết nối PHP với cơ sở dữ liệu.
 ### Tuần 5 (06/07–12/07) – Phát triển hệ thống quản trị
 Hoàn chỉnh chức năng thanh toán và đặt hàng.
 Xây dựng trang quản trị dành cho admin.
-Thêm khả năng quản lý sản phẩm, đơn hàng và thống kê hệ thống.
+### Báo cáo tiến độ tuần 6 (13/07–19/07)
+Nội dung thực hiện: Kiểm thử chức năng toàn hệ thống, tối ưu giao diện và sửa lỗi phát sinh
+### Báo cáo tiến độ tuần 7 (20/07–27/07)
+Nội dung thực hiện: Viết và hoàn thiện báo cáo đồ án
